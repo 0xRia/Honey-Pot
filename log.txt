@@ -1,0 +1,23 @@
+2025-09-29 01:51:27,950 - Starting Honeypot Services
+
+2025-09-29 01:51:27,950 - Starting HTTP honeypot on port 80
+2025-09-29 01:51:27,950 - Starting HTTPS honeypot on port 443
+2025-09-29 01:51:27,950 - SSH Honeypot started on port 22
+2025-09-29 01:51:28,023 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.0.13:80
+2025-09-29 01:51:28,023 - [33mPress CTRL+C to quit[0m
+2025-09-29 01:51:28,035 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.0.13:443
+2025-09-29 01:51:28,035 - [33mPress CTRL+C to quit[0m
+2025-09-29 01:51:42,633 - HTTP Request from 127.0.0.1: GET /
+2025-09-29 01:51:42,636 - 127.0.0.1 - - [29/Sep/2025 01:51:42] "GET / HTTP/1.1" 200 -
+2025-09-29 01:51:47,998 - HTTP Login Attempt from 127.0.0.1: Username: test, Password: pass
+2025-09-29 01:51:47,998 - 127.0.0.1 - - [29/Sep/2025 01:51:47] "POST /login HTTP/1.1" 200 -
+2025-09-29 01:51:55,830 - HTTPS Request from 127.0.0.1: GET /
+2025-09-29 01:51:55,831 - 127.0.0.1 - - [29/Sep/2025 01:51:55] "GET / HTTP/1.1" 200 -
+2025-09-29 01:52:20,736 - HTTPS Login Attempt from 127.0.0.1: Username: securetest, Password: securepass
+2025-09-29 01:52:20,737 - 127.0.0.1 - - [29/Sep/2025 01:52:20] "POST /login HTTP/1.1" 200 -
